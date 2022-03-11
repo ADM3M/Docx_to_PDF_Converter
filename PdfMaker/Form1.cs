@@ -19,6 +19,7 @@ namespace PdfMaker
 
         private void panel1_DragEnter(object sender, DragEventArgs e)
         {
+            label2.Text = "Drop here";
             label2.Visible = true;
 
             if (e.Data.GetDataPresent(DataFormats.FileDrop))
