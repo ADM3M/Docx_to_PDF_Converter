@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WordGlue/3.2.0.1": {
+        "runtime": {
+          "lib/net5.0/WordGlue3.NET5.dll": {
+            "assemblyVersion": "3.2.0.1",
+            "fileVersion": "3.2.0.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WordGlue/3.2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9TBNqM9sGSeoKwIgFDw5pV36xPwlgSmOGYKvY4VKbR07IJc6UGad7mUUIbzTGOyJvEpfjWHrJSt30cxmOpHoOQ==",
+      "path": "wordglue/3.2.0.1",
+      "hashPath": "wordglue.3.2.0.1.nupkg.sha512"
+    }
+  }
+}

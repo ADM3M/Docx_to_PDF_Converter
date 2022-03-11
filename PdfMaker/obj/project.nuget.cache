@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FxjSaFH3eJ54ww4wAg0rNK3/o8SJqvA5nYUDX4m3Mcj5d2Ooz4ScDrRGxcng2mLlYr/uO6xg8S1LI4/mKSh3dA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\flysw\\source\\repos\\PdfMaker\\PdfMaker\\PdfMaker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\flysw\\.nuget\\packages\\wordglue\\3.2.0.1\\wordglue.3.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

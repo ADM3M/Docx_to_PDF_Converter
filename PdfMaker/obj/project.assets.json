@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "WordGlue/3.2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/WordGlue3.NET5.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/WordGlue3.NET5.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/WordGlue/ReadMe.txt": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/WordGlue/WordGlue.chm": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WordGlue/3.2.0.1": {
+      "sha512": "9TBNqM9sGSeoKwIgFDw5pV36xPwlgSmOGYKvY4VKbR07IJc6UGad7mUUIbzTGOyJvEpfjWHrJSt30cxmOpHoOQ==",
+      "type": "package",
+      "path": "wordglue/3.2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.md",
+        "WGSettings.Core/WGSettings.Core.deps.json",
+        "WGSettings.Core/WGSettings.Core.dll",
+        "WGSettings.Core/WGSettings.Core.exe",
+        "WGSettings.Core/WGSettings.Core.runtimeconfig.json",
+        "WGSettings.Core/WordGlue3.Core.dll",
+        "WGSettings.NET5/WGSettings.NET5.deps.json",
+        "WGSettings.NET5/WGSettings.NET5.dll",
+        "WGSettings.NET5/WGSettings.NET5.exe",
+        "WGSettings.NET5/WGSettings.NET5.runtimeconfig.json",
+        "WGSettings.NET5/WordGlue3.NET5.dll",
+        "WGSettings.NET6/WGSettings.NET6.deps.json",
+        "WGSettings.NET6/WGSettings.NET6.dll",
+        "WGSettings.NET6/WGSettings.NET6.exe",
+        "WGSettings.NET6/WGSettings.NET6.runtimeconfig.json",
+        "WGSettings.NET6/WordGlue3.NET6.dll",
+        "WGSettings/WGSettings.exe",
+        "WGSettings/WordGlue3.dll",
+        "content/ReadMe.txt",
+        "content/WordGlue.chm",
+        "contentFiles/any/any/WordGlue/ReadMe.txt",
+        "contentFiles/any/any/WordGlue/WordGlue.chm",
+        "icon.png",
+        "lib/net20/WordGlue3.dll",
+        "lib/net20/WordGlue3.xml",
+        "lib/net5.0/WordGlue3.NET5.dll",
+        "lib/net5.0/WordGlue3.NET5.xml",
+        "lib/net6.0/WordGlue3.NET6.dll",
+        "lib/net6.0/WordGlue3.NET6.xml",
+        "lib/netcoreapp3.0/WordGlue3.Core.dll",
+        "lib/netcoreapp3.0/WordGlue3.Core.xml",
+        "wordglue.3.2.0.1.nupkg.sha512",
+        "wordglue.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "WordGlue >= 3.2.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\flysw\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\flysw\\source\\repos\\PdfMaker\\PdfMaker\\PdfMaker.csproj",
+      "projectName": "PdfMaker",
+      "projectPath": "C:\\Users\\flysw\\source\\repos\\PdfMaker\\PdfMaker\\PdfMaker.csproj",
+      "packagesPath": "C:\\Users\\flysw\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\flysw\\source\\repos\\PdfMaker\\PdfMaker\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\flysw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "WordGlue": {
+            "target": "Package",
+            "version": "[3.2.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
